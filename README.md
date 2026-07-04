@@ -22,17 +22,17 @@ We'll be using
 
 ## Low Level 
 
-1. create a .env file 
-2. load the env variables
-3. connect to sql server (pyodbc)
-4. connect to postgres db (psycopg2)
-5. audit the data
-6. for each table
-7. get row count
-8. extract all rows
-9. transform the columns names to lowercase
-10. convert the datatypes
-11. create tables in PGDB
-12. laod tables in PGDB
-13. Run post migration checks
-14. Generate validation report
+- create a .env file 
+- load the env variables
+- connect to sql server (pyodbc)
+- connect to postgres db (psycopg2)
+- audit the data
+- for each table
+    - get row count
+    - extract all rows
+    - transform the columns names to lowercase
+    - convert the datatypes
+    - create tables in PGDB
+    - laod tables in PGDB
+- Run post migration checks
+- Generate validation report
